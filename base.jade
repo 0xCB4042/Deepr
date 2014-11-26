@@ -20,13 +20,8 @@ html
 				nav.main-nav
 					ul.menu
 						li= a_with_selected('/', 'Home')
-						li= a_with_selected('/archive', 'Archive')
-						if has('images')
-							li= a_with_selected('/album', 'Photos')
-						if has('links.md')
-							li= a_with_selected('/links.md', 'Links')
-						if has('about.md')
-							li= a_with_selected('/about.md', 'About')
+						li= a_with_selected('/category', 'Category')
+						li= a_with_selected('/about', 'About')
 
 			#main.cf
 				block content
@@ -41,13 +36,3 @@ html
 					a(href="http://fontawesome.io/") Fontawesome
 					| &nbsp; &
 					a(href="http://dropbox.com/") Dropbox
-
-			// for duoshuo recent comments
-			if site.configs.duoshuo
-				script(type="text/javascript")
-					var duoshuoQuery = {short_name:"{{ site.configs.duoshuo }}"};
-					(function() { var ds = document.createElement('script'); ds.type = 'text/javascript';ds.async = true;
-					ds.src = '//static.duoshuo.com/embed.js';ds.charset = 'UTF-8';
-					(document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(ds);
-					})();
-

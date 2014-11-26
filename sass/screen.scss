@@ -39,7 +39,7 @@ body {
 
 #wrap {
     margin: 20px auto;
-    width: 980px;
+    width: 800px;
     padding: 0 50px;
 }
 
@@ -84,10 +84,10 @@ body {
 }
 
 #main {
-    margin: 25px 0;
+    margin: 25px 0 0 10px;
     .primary {
         width: 100%;
-        max-width: 650px;
+        //max-width: 650px;
         float: left;
     }
     .pages {
@@ -280,10 +280,11 @@ body {
     }
 }
 
-// archive
-.archive-list {
+// category
+.category-list {
     padding: 0 100px 0 30px;
-    .list-years {
+
+    .list-category {
         font-weight: bold;
         line-height: 1.6em;
         margin-top: 20px;
@@ -299,6 +300,7 @@ body {
         }
         a {
             margin-left: 1em;
+            font-size: larger;
         }
     }
 }
@@ -516,6 +518,7 @@ body {
 #fb_comments_container{
     margin: 50px 0;
 }
+
 
 #footer {
     padding: 10px 0;
