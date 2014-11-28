@@ -1,5 +1,5 @@
 ### MIT license
-Copyright (c) 2014 deepure <root@motype.org>
+Copyright (c) 2014 Alex
 
 Permission is hereby granted, free of charge, to any person obtaining a copy
 of this software and associated documentation files (the &quot;Software&quot;), to deal
