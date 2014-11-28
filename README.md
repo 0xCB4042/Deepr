@@ -1,25 +1,3 @@
-key: fblog-deepure
-title: fblog  
-domain: http://motype.org
-
-=======
-
-
-###链接类主题   
-当文章头部有link标签时，文章列表内的标题将直接链到该link  
- 
-    Title:协议森林by-Vamei
-    Date: 2013-02-21 21:18:54  
-    link: http://www.cnblogs.com/vamei/archive/2012/12/05/2802811.html  
-    tags: 互联网协议  
-
-###Feedback
-http://motype.org/post/design/theme-farbox  
-https://github.com/deepure/fblog/issues
-
-
----
-
 ### MIT license
 Copyright (c) 2014 deepure <root@motype.org>
 
